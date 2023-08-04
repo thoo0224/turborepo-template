@@ -16,7 +16,8 @@
     "skipLibCheck": true,
     "strict": true,
     "paths": {
-      "@cfxstore/ui/*": ["../../packages/ui/*"]
+      "@cfxstore/ui/*": ["../../packages/ui/*"],
+      "@cfxstore/logger": ["../../packages/logger"]
     }
   },
   "exclude": ["node_modules"]
