@@ -1,0 +1,26 @@
+{
+  "name": "database",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf .turbo && rm -rf node_modules & rm -rf dist",
+    "dev": "tsc -w",
+    "lint": "eslint \"*.ts*\"",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push --skip-generate"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@prisma/client": "5.1.1",
+    "@types/node": "^20.4.7",
+    "prisma": "^5.1.1",
+    "ts-node": "^10.9.1"
+  }
+}

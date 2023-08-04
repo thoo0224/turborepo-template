@@ -14,7 +14,8 @@
     "react-dom": "^18.2.0",
     "ui": "workspace:*",
     "eslint-config-custom": "workspace:*",
-    "logger": "workspace:*"
+    "logger": "workspace:*",
+    "database": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
