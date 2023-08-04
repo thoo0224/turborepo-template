@@ -1,4 +1,0 @@
-
-> ui@0.0.0 lint E:\programming\practice\my-turborepo\packages\ui
-> eslint "**/*.ts*"
-
