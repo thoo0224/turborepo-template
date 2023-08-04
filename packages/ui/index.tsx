@@ -1,5 +1,9 @@
-import * as React from "react";
+import { twMerge } from "tailwind-merge";
+import clsx, { ClassValue } from "clsx";
 
-// component exports
-export * from "./Button";
-export * from "./Header";
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
+// Components
+export * from "./components/button";

@@ -1,3 +1,6 @@
+/**
+ * @type {import('eslint').Linter.Config}
+ */
 module.exports = {
   extends: ["next", "turbo", "prettier"],
   rules: {
