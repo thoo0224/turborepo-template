@@ -1,0 +1,12 @@
+{
+  "name": "prettier-config",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "files": [
+    "prettier.config.js"
+  ],
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.4.1"
+  }
+}

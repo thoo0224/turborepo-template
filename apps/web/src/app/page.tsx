@@ -8,7 +8,7 @@ export default async function Page() {
   console.log(users);
 
   return (
-    <div className="m-3 bg-red-500 p-3 text-fuchsia-50">
+    <div className="m-3 bg-red-500 text-fuchsia-50 p-3">
       <Button>Test</Button>
     </div>
   );
