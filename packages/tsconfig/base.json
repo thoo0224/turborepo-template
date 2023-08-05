@@ -20,7 +20,8 @@
       "@cfxstore/ui": ["../../packages/ui"],
       "@cfxstore/logger": ["../../packages/logger"],
       "@cfxstore/database": ["../../packages/database"],
-      "@cfxstore/repository": ["../../packages/repository"]
+      "@cfxstore/repository": ["../../packages/repository"],
+      "@cfxstore/nextauth": ["../../packages/nextauth"]
     }
   },
   "exclude": ["node_modules"]

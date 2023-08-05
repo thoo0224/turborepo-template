@@ -1,0 +1,27 @@
+{
+  "name": "nextauth",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "source": "./dist/index.ts",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf .turbo && rm -rf node_modules & rm -rf dist",
+    "dev": "tsc -w",
+    "lint": "eslint \"*.ts*\""
+  },
+  "dependencies": {
+    "@next-auth/prisma-adapter": "^1.0.7",
+    "database": "workspace:*",
+    "next-auth": "^4.22.3"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
+    "typescript": "^5.1.6"
+  }
+}
