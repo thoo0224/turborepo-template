@@ -1,10 +1,9 @@
 import { Button } from "@cfxstore/ui";
 import * as logger from "@cfxstore/logger";
-import { PrismaClient } from "@cfxstore/database";
+import { userRepository } from "@cfxstore/repository";
 
 export default async function Page() {
-  const prisma = new PrismaClient();
-  const users = await prisma.user.findMany();
+  const users = await userRepository.findAll();
   console.log(users);
 
   return (

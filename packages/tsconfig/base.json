@@ -16,9 +16,11 @@
     "skipLibCheck": true,
     "strict": true,
     "paths": {
+      "@cfxstore/ui/*": ["../../packages/ui/*"],
       "@cfxstore/ui": ["../../packages/ui"],
       "@cfxstore/logger": ["../../packages/logger"],
-      "@cfxstore/database": ["../../packages/database"] 
+      "@cfxstore/database": ["../../packages/database"],
+      "@cfxstore/repository": ["../../packages/repository"]
     }
   },
   "exclude": ["node_modules"]
